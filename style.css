@@ -21,6 +21,12 @@ h2{
     padding: 15px;
 }
 
+h3{
+    color: rgb(85, 165, 165);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
 /* Colors */
 body {background-color: gainsboro;}
 
@@ -34,5 +40,6 @@ body {background-color: gainsboro;}
 img{
     padding:10px;
     border: none;
+    margin: auto;
 }
 
