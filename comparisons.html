@@ -1,85 +1,90 @@
-
-<!-- Need to fix alignment and dropdown menu -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <title>Latitude Landing Page</title>
+  <meta charset="UTF-8">
+  <title>Latitude Landing Page</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" >
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body></body>
 
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand text-white" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<!-- Start of navbar -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand text-white" href="index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <!-- Right side navbar components -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./comparisons.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./data.html">Data</a>
-            </li>
-           
-          </ul>
-          
+  <!-- Right side navbar components -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button"
+          aria-haspopup="true" aria-expanded="false">Plots</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
         </div>
-      
-      </nav>
-      <br>
-      <br>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./comparisons.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./data.html">Data</a>
+      </li>
 
-      <!-- Content -->
+    </ul>
 
-      <div class="container">  
-        <div class="row">
-            <div class="col-md-12">
-            <h3>Comparison: Latitude vs X</h3> 
-                <p class="text-justify text-muted">
-                <hr>
-                Click any plot to get an in-depth analysis
-                </p>
-            
-                <div class="col-md-6">
-                    <h3 class="text-center">vs. Max Temperature</h3>
-                    <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png" width="60%"  alt="Latitude vs. Max Temperature"></a>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="text-center">vs. Humidity</h3>
-                    <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="60%"  alt="Latitude vs. Humidity"></a>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="text-center">vs. Cloudiness</h3>
-                    <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="60%"  alt="Latitude vs. Cloudiness"></a>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="text-center">vs. Windspeed</h3>
-                    <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" width="60%"  alt="Latitude vs. Windspeed"></a>
-                </div>
-            </div>
+  </div>
+
+</nav>
+<br>
+<br>
+
+<!-- Content -->
+
+<div class="container">
+  <div class="col-md-12">
+    <h3>Comparison: Latitude vs X</h3>
+    <p class="text-justify text-muted">
+      <hr>
+      Click any plot to get an in-depth analysis
+    </p>
+    <div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-center">vs. Max Temperature</h3>
+          <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png" width="60%"
+              alt="Latitude vs. Max Temperature"></a>
         </div>
+        <div class="col-md-6">
+          <h3 class="text-center">vs. Humidity</h3>
+          <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="60%"
+              alt="Latitude vs. Humidity"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-center">vs. Cloudiness</h3>
+          <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="60%"
+              alt="Latitude vs. Cloudiness"></a>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-center">vs. Windspeed</h3>
+          <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" width="60%"
+              alt="Latitude vs. Windspeed"></a>
+        </div>
+      </div>
     </div>
-
-
-
+  </div>
+</div>

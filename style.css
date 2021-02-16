@@ -1,5 +1,5 @@
 /* navbar styling*/
-a.navbar-brand{
+.navbar-brand{
     margin-left: 10px;
     padding: 7px;
     background-color: rgb(85, 165, 165);
@@ -36,7 +36,8 @@ body {background-color: gainsboro;}
     padding-bottom:40px;
 }
 
-/* image styling*/
+
+/* image styling */
 img{
     padding:10px;
     border: none;
