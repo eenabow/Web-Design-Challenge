@@ -1,5 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+https://eenabow.github.io/Web-Design-Challenge/
+
 ![Images/landingResize.png](Images/landingResize.png)
 
 ## Latitude - Latitude Analysis Dashboard 
