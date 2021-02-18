@@ -28,7 +28,7 @@ h3{
 }
 
 /* Colors */
-body {background-color: gainsboro;}
+body {background-color: teal;}
 
 .col-md-12{
     background-color: ivory;
@@ -44,3 +44,12 @@ img{
     margin: auto;
 }
 
+
+/* Styling in smaller screen  */
+
+@media (max-width: 500px) {
+    body {
+    background: purple;
+    
+}
+}
